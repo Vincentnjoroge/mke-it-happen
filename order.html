@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+ <html>
+   <head>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/script.js">
+    </script> 
+
+    <meta charset="utf-8">
+    <title>The sherrifs 🍕 </title>
+   </head>
+   <body>
+    <div class="cont">
+      <div class="navigation-link-wrapper">
+        <div class="right">
+          <div class="navigation-link-wrapper">
+            <a href="index.html">home</a>
+        </div>
+
+        <div class="navigation-link-wrapper">
+         <a href="order.html">reorder</a>
+        </div>
+    <div class="container">
+      <form id="pizzaOrder">
+        <div id="orderStarter">
+          <div class="pizza-logo mt-3">
+            <img src="pics/pic6.jpg" alt="">
+          </div>
+      
+          <div class="row">
+            <div class="col mb-3 mt-3">
+              <div class="pizza-image-container">
+                <div class="pzza-logo mt-4">
+                  <img src="pics/prices.jpg" alt="">
+                </div>
+                <div class="pizza-toppings-container"></div>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-success mt-4 w-100">Click Here to Start your Order</button>
+          </div>
+        </div>
+        <div class="form-group" id="pizzaForm">
+          <div class="mb-3" id="toppingsSection">
+            <div class="topping-option-container">
+              <select class="form-control" id="toppings">
+                <option value="0">Select a topping</option>
+                <option value="0.5">Pepperoni</option>
+                <option value="0.5">Sausage</option>
+                <option value="0.5">Bell Pepper</option>
+                <option value="0.5">Mushroom</option>
+                <option value="0.5">Onion</option>
+                <option value="0.5">Artichoke</option>
+                <option value="0.5">Tempeh</option>
+              </select>
+              <button type="button" class="btn btn-info ml-3" id="addToppings">Add</button>
+            </div>
+            <p class="error">You have to choose some toppings!!</p>
+          </div>
+          <div id="sizeSection">
+            <select class="form-control" id="sizes">
+              <option value="0">Select a crust</option>
+              <option value="4">Thin </option>
+              <option value="5">Thick</option>
+              <option value="6">Deep pan</option>
+            </select>
+            <p class="error">You have to specify your crust!!</p>
+          </div>
+          <br>
+          <div id="sizeSection">
+            <select class="form-control" id="sizes">
+              <option value="0">Select a size</option>
+              <option value="4">Small</option>
+              <option value="5">Medium</option>
+              <option value="6">Large</option>
+              <option value="20">Ultra large(Bazenga)</option>
+            </select>
+            <p class="error">You have to specify your size!!</p>
+          </div>
+          <br>
+          <div id="🚚 delivery section">
+            <select class="form-control" id="sizes">
+              <option value="0">Enter delivery point</option>
+              <option value="4">Waiyaki way</option>
+              <option value="5">jogoo road</option>
+              <option value="6">Thika road</option>
+              <option value="20">juja road</option>
+              <option value="20">ngong road</option>
+              <option value="20">Bururu</option>
+              <option value="20">Ngara</option>
+              <option value="20">Rongai</option>
+              <option value="20">Kasarani</option>
+            </select>
+            <p class="error">You have to tell us your location!!</p>
+          </div>
+          <form action="" method="POST">
+   <input type="text" placeholder="enter your contact details">
+   
+</form>
+          <button type="button" class="btn btn-success mt-3" id="order">Order</button>
+        </div>
+        <div class="order-receipt" id="orderConfirmation">
+          <h4>You've added these toppings:</h4>
+          
+          <ul></ul>
+          <div class="total container">
+            <h2 id="totalCost"></h2>
+            <p>You will get a a message once we get near your hood 😆 </p>
+          </div>
+          <div class="pizza-logo mt-4">
+            <img src="pics/pic4.jpg" alt="">
+          </div>
+        </div>
+      </form>
+    </div>
+    </div>
+    </div>
+    </div>
+   </div>
+
+   </body>
+  
+</html>
